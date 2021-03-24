@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[32,)" 
+license="MIT"
+
+[[mods]]
+modId="hellspawn"
+version="1.16.5-1.0.0"
+displayName="Hell Spawn"
+updateJSONURL="https://github.com/ReadOnlyDevelopment/updates/blob/master/hellspawn/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/hellspawn"
+authors="ROMVoid95"
+description='''
+Spawn In Hell
+'''
+
+[[dependencies.hellspawn]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hellspawn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,)"
+    ordering="NONE"
+    side="BOTH"
